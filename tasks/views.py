@@ -38,8 +38,7 @@ def signup(request):
                   })
 
 
-    print(request.POST)
-    print('obteniendo datos')
+
 @login_required
 def tasks(request):
     tasks = Task.objects.filter(user=request.user, datecompleted__isnull=True)
