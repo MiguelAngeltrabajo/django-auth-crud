@@ -13,12 +13,5 @@ python manage.py makemigrations --no-input
 python manage.py migrate
 
 
-#python manage.py migrate tasks zero
-
-#rm tasks/migrations/.py 
-
-#python manage.py makemigrations tasks --no-input
-
-#python manage.py migrate
 
 
