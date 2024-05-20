@@ -13,9 +13,9 @@ python manage.py collectstatic --no-input
 #python manage.py migrate
 
 
-python manage.py migrate tasks zero
+#python manage.py migrate tasks zero
 
-rm tasks/migrations/.py 
+#rm tasks/migrations/.py 
 
 python manage.py makemigrations tasks --no-input
 
