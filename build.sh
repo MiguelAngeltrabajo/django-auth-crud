@@ -10,9 +10,9 @@ python manage.py collectstatic --no-input
 
 # Apply any outstanding database migrations
 python manage.py migrate tasks zero
-rm tasks/migrations/*.py
-python manage.py makemigrations --no-input
-python manage.py migrate
+
+#python manage.py makemigrations --no-input
+#python manage.py migrate
 
 
 
